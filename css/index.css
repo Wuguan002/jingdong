@@ -1,0 +1,26 @@
+ul{margin: 0;padding: 0}
+body{background-color: #f4f4f4}
+header{width: 100%;height: 170px;}
+header>div:nth-child(1){width: 100%;height: 30px;background-color: #e3e4e5;line-height: 30px}
+header>div:nth-child(1)>div{width:1200px;height: 100%;background-color:lightblue;margin: 0 auto}
+header>div:nth-child(1)>div>div{float: left}
+header>div:nth-child(1)>div>ul{width: 800px;display: flex;justify-content: space-between;
+    float: right;}
+.fontred{color: red}
+header>div:nth-child(1)>div>ul>li{}
+header>div:nth-child(2){width: 100%;height: 140px;background-color: #fff}
+header>div:nth-child(2)>div{width:1200px;height: 100%;margin: 0 auto;background-color: lightsalmon;display: flex;justify-content: space-between}
+header>div:nth-child(2)>div>a{display: inline-block;margin-top: 20px}
+header>div:nth-child(2)>div>#logo{width: 100px;height: 100px;background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");background-size: 100px 150px}
+header>div:nth-child(2)>div>div{width: 746px;height: 100%;background: red;position: relative}
+header>div:nth-child(2)>div>div>ul{position: absolute;width: 100%;display: flex;justify-content: space-between;bottom: 0;left: 0}
+header>div:nth-child(2)>div>#da{width: 100px;height: 100px;background-image: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite@2x.png");background-size: 100px 150px}
+/************************************************/
+#content{width: 1200px;height: 10000px;margin: 10px auto 0;position: relative}/*高度将来要删掉*/
+#wwy{width: 100%;height: 480px;background-color: lightgreen;display: flex;justify-content: space-between}
+#wwy>ul{width: 190px;background: lightsalmon;height: 100%}
+#wwy1{width: 590px;background: lightcoral;height: 100%}
+#wwy2{width: 190px;background: lightgray;height: 100%}
+#wwy3{width: 190px;background: lightseagreen;height: 100%}
+/********************************************************/
+#elevator_list{width: 58px;height: 348px;position: sticky;top:100px;background-color: red;transform: translate(1220px)}
